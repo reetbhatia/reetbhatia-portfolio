@@ -10,17 +10,13 @@ export function About() {
 
         <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[1fr_1.3fr]">
           <blockquote className="border-l-2 border-primary/60 pl-4 font-mono text-lg leading-relaxed text-foreground sm:text-xl">
-            {'"I like understanding how systems work —'}
+            {'"I’m naturally curious about the messy parts of technology -'}
             <br />
-            {'and figuring out what happens when they don\u0027t."'}
+            {'how systems fail, how attacks unfold and how small details can reveal a bigger picture."'}
           </blockquote>
 
           <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
-            <p>
-  I’m naturally curious about the messy parts of technology - how systems
-  fail, how attacks unfold and how small details can reveal a bigger picture.
-</p>
-
+          
 <p>
   I recently completed my M.Eng. in Cybersecurity at the University of Maryland,
   College Park, along with a Graduate Certificate in Cloud Engineering.
