@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, FileText, Folder } from 'lucide-react'
+import { ArrowRight, Folder } from 'lucide-react'
 import { profile } from '@/lib/data'
 import { useTypewriter } from '@/hooks/use-typewriter'
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
@@ -131,13 +131,7 @@ export function Hero() {
                 VIEW PROJECTS
                 <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-0.5" />
               </a>
-              <a
-                href={profile.links.resume}
-                className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-2 text-sm text-foreground transition-colors hover:border-secondary/60 hover:text-secondary"
-              >
-                <FileText className="size-4" />
-                RESUME
-              </a>
+              
               <a
                 href={profile.links.linkedin}
                 target="_blank"
