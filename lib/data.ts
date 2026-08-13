@@ -8,7 +8,6 @@ export const profile = {
     
   ],
   links: {
-    resume: '/resume.pdf',
     linkedin: 'https://www.linkedin.com/in/reet-bhatia/',
     github: 'https://github.com/reetbhatia',
     email: 'mailto:reetbhatia02@gmail.com',
