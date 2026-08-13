@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Reet Bhatia',
   handle: 'reet',
-  role: 'Cybersecurity Analyst',
+  role: 'Security Analyst',
   focusLine: 'Cloud Security • Security Operations • AI',
   intro: [
     'Building practical security solutions in cloud security, threat detection, incident response, and AI-assisted security.',
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     id: 'aegis',
     index: '01',
     slug: 'aegis',
-    title: 'Aegis — Agentic AI SOC Analyst & Threat Hunting Agent',
+    title: 'Aegis - Agentic AI SOC Analyst & Threat Hunting Agent',
     short: 'Agentic AI SOC analyst with a custom O-H-P-V-R reasoning framework.',
     description:
       'Built Aegis, an agentic AI SOC analyst using Gemini 2.5 Flash and a custom O-H-P-V-R reasoning framework for threat hunting across security telemetry. Added guardrails, MITRE ATT&CK validation, deterministic CVSS scoring, IOC correlation, VirusTotal enrichment, and token/cost tracking for LLM usage.',
