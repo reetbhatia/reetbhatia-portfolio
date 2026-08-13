@@ -4,7 +4,7 @@ export const profile = {
   role: 'Security Analyst',
   focusLine: 'Cloud Security • Security Operations • AI',
   intro: [
-    'Building practical security solutions in cloud security, threat detection, incident response, and AI-assisted security.',
+    'Building practical security solutions in cloud security, threat detection, incident response and AI-assisted security.',
     
   ],
   links: {
