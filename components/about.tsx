@@ -10,9 +10,8 @@ export function About() {
 
         <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[1fr_1.3fr]">
           <blockquote className="border-l-2 border-primary/60 pl-4 font-mono text-lg leading-relaxed text-foreground sm:text-xl">
-            {'"I’m naturally curious about the messy parts of technology -'}
+            {'"I’m naturally curious about the messy parts of technology - how systems fail, how attacks unfold and how small details can reveal a bigger picture."'}
             <br />
-            {'how systems fail, how attacks unfold and how small details can reveal a bigger picture."'}
           </blockquote>
 
           <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
