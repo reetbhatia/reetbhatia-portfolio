@@ -4,15 +4,14 @@ export const profile = {
   role: 'Cybersecurity Analyst',
   focusLine: 'Cloud Security • Security Operations • AI',
   intro: [
-    'Building practical security solutions across',
-    'threat detection, cloud security, incident response,',
-    'and AI.',
+    'Building practical security solutions in cloud security, threat detection, incident response, and AI-assisted security.',
+    
   ],
   links: {
     resume: '/resume.pdf',
-    linkedin: 'https://www.linkedin.com/in/reetbhatia',
+    linkedin: 'https://www.linkedin.com/in/reet-bhatia/',
     github: 'https://github.com/reetbhatia',
-    email: 'mailto:reet@example.com',
+    email: 'mailto:reetbhatia02@gmail.com',
   },
   system: [
     { label: 'SYSTEM STATUS', value: 'ONLINE', online: true },
