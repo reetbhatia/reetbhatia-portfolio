@@ -40,10 +40,10 @@ export const projects: Project[] = [
     id: 'aegis',
     index: '01',
     slug: 'aegis',
-    title: 'Aegis - Agentic AI SOC Analyst & Threat Hunting Agent',
+    title: 'Aegis - AI SOC Analyst & Threat Hunting Agent',
     short: 'Agentic AI SOC analyst with a custom O-H-P-V-R reasoning framework.',
     description:
-      'Built Aegis, an agentic AI SOC analyst using Gemini 2.5 Flash and a custom O-H-P-V-R reasoning framework for threat hunting across security telemetry. Added guardrails, MITRE ATT&CK validation, deterministic CVSS scoring, IOC correlation, VirusTotal enrichment, and token/cost tracking for LLM usage.',
+      'Built an AI-assisted SOC analyst using Gemini 2.5 Flash and a custom O-H-P-V-R reasoning framework for threat hunting across security telemetry. Added guardrails, MITRE ATT&CK validation, deterministic CVSS scoring, IOC correlation, VirusTotal enrichment and token/cost tracking for LLM usage.',
     status: 'ACTIVE DEVELOPMENT',
     tech: [
       'Gemini 2.5 Flash',
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     title: 'Digital Forensics Investigation of a Multi-Stage Malware Campaign',
     short: 'Forensic reconstruction of a multi-stage malware campaign.',
     description:
-      'Investigated a multi-stage malware campaign using Autopsy, Wireshark, and VeraCrypt to analyze forensic artifacts, network traffic, reconstruct the attack timeline, and map findings to MITRE ATT&CK.',
+      'Investigated a multi-stage malware campaign using Autopsy, Wireshark and VeraCrypt to analyze forensic artifacts, network traffic, reconstruct the attack timeline and map findings to MITRE ATT&CK.',
     status: 'COMPLETED',
     tech: [
       'Autopsy',
@@ -78,6 +78,7 @@ export const projects: Project[] = [
       'MITRE ATT&CK',
       'Digital Forensics',
       'Malware Analysis',
+      'IOC Analysis',
     ],
     github: 'https://github.com/reetbhatia/digital-forensics-malware-investigation',
     meta: [
@@ -93,7 +94,7 @@ export const projects: Project[] = [
     title: 'AWS Security Vulnerability Assessment',
     short: 'Cloud security assessment across EC2, VPC, IAM, and databases.',
     description:
-      'Assessed an AWS-hosted application for security vulnerabilities across EC2, VPC, IAM, and database configurations using CIS Benchmarks and OWASP guidance.',
+      'Assessed an AWS-hosted application for security vulnerabilities across EC2, VPC, IAM and database configurations using CIS Benchmarks and OWASP guidance.',
     status: 'COMPLETED',
     tech: ['AWS', 'EC2', 'VPC', 'IAM', 'CIS Benchmarks', 'OWASP'],
     github: 'https://github.com/reetbhatia/aws-security-assessment',
@@ -110,14 +111,15 @@ export const projects: Project[] = [
     title: 'Cisco IOS XE Web UI Exploitation — Incident Response Investigation',
     short: 'IR investigation of a simulated Cisco IOS XE compromise.',
     description:
-      'Investigated a simulated Cisco IOS XE compromise using syslog analysis, IOC correlation, and threat intelligence.',
+      'Investigated a simulated Cisco IOS XE compromise using syslog analysis, IOC correlation and threat intelligence.',
     status: 'COMPLETED',
     tech: [
       'Cisco IOS XE',
-      'Syslog',
+      'Syslog Analysis',
       'IOC Correlation',
       'Threat Intelligence',
       'Incident Response',
+      'Timeline Reconstruction',
     ],
     github: 'https://github.com/reetbhatia/incident-response-investigation',
     meta: [
