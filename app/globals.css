@@ -192,6 +192,32 @@
   50.01%, 100% { opacity: 0; }
 }
 
+.robot-eye {
+  animation: robot-look 4s ease-in-out infinite;
+}
+
+.robot-eye-right {
+  animation-delay: 0.15s;
+}
+
+@keyframes robot-look {
+  0%,
+  20%,
+  100% {
+    transform: translateX(0);
+  }
+
+  35%,
+  55% {
+    transform: translateX(-5px);
+  }
+
+  70%,
+  90% {
+    transform: translateX(5px);
+  }
+}
+
 @keyframes scanbeam {
   0% { top: -30%; }
   100% { top: 100%; }
