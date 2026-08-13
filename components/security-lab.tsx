@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Shield, Cloud, Wrench, Code2, BrainCircuit } from 'lucide-react'
+import { Shield, Cloud, Wrench, Code2, BrainCircuit, ClipboardCheck } from 'lucide-react'
 import { skillGroups } from '@/lib/data'
 import { SectionHeading } from '@/components/section-heading'
 import { cn } from '@/lib/utils'
@@ -12,6 +12,7 @@ const icons: Record<string, typeof Shield> = {
   tools: Wrench,
   engineering: Code2,
   ai: BrainCircuit,
+  governance: ClipboardCheck,
 }
 
 export function SecurityLab() {
@@ -56,7 +57,9 @@ export function SecurityLab() {
         ? 'TOOLS'
         : group.id === 'engineering'
           ? 'ENGINEERING'
-          : 'AI'}
+          : group.id === 'ai'
+            ? 'AI'
+            : 'GOVERNANCE'}
 </span>
                     </button>
                   </li>
