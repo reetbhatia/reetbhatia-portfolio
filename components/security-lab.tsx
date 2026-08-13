@@ -47,8 +47,17 @@ export function SecurityLab() {
                       )}
                     >
                       <GroupIcon className="size-4 shrink-0" />
-                      <span className="hidden sm:inline">{group.title}</span>
-                      <span className="sm:hidden">{group.title.split(' ')[0]}</span>
+                      <span>
+  {group.id === 'secops'
+    ? 'SECURITY'
+    : group.id === 'cloud'
+      ? 'CLOUD'
+      : group.id === 'tools'
+        ? 'TOOLS'
+        : group.id === 'engineering'
+          ? 'ENGINEERING'
+          : 'AI'}
+</span>
                     </button>
                   </li>
                 )
