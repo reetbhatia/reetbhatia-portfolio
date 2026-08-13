@@ -17,14 +17,19 @@ export function About() {
 
           <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
             <p>
-              My background spans cybersecurity, cloud security, security operations,
-              incident response, threat hunting, and AI-assisted security automation.
-            </p>
-            <p>
-              I recently completed an M.Eng. in Cybersecurity at the University of
-              Maryland, College Park, along with a Graduate Certificate in Cloud
-              Engineering.
-            </p>
+  I’m naturally curious about the messy parts of technology - how systems
+  fail, how attacks unfold and how small details can reveal a bigger picture.
+</p>
+
+<p>
+  I recently completed my M.Eng. in Cybersecurity at the University of Maryland,
+  College Park, along with a Graduate Certificate in Cloud Engineering.
+</p>
+
+<p>
+  Looking for my next opportunity in cybersecurity - somewhere I can
+  contribute, keep learning and build things that matter.
+</p>
             <div className="flex flex-wrap gap-2 pt-2">
               {['Cloud Security', 'Security Operations', 'Threat Hunting', 'Incident Response', 'AI-assisted Security'].map(
                 (tag) => (
