@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, FileText } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { profile } from '@/lib/data'
 import { useTypewriter } from '@/hooks/use-typewriter'
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
@@ -9,7 +9,6 @@ const actions = [
   { label: 'LINKEDIN', href: profile.links.linkedin, icon: LinkedinIcon, external: true },
   { label: 'GITHUB', href: profile.links.github, icon: GithubIcon, external: true },
   { label: 'EMAIL', href: profile.links.email, icon: Mail, external: false },
-  { label: 'RESUME', href: profile.links.resume, icon: FileText, external: false },
 ]
 
 export function Contact() {
@@ -42,8 +41,7 @@ export function Contact() {
             </p>
 
             <p className="mt-4 text-sm text-muted-foreground">
-              <span className="text-primary/70">{'>'}</span> Open to cybersecurity,
-              cloud security, and security operations roles. Let&apos;s connect.
+              <span className="text-primary/70">{'>'}</span> Let&apos;s connect.
             </p>
 
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
