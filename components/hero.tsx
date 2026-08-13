@@ -1,7 +1,6 @@
 'use client'
 
 import { ArrowRight, FileText, Folder } from 'lucide-react'
-import { useEffect, useState } from 'react'
 import { profile } from '@/lib/data'
 import { useTypewriter } from '@/hooks/use-typewriter'
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
@@ -21,48 +20,12 @@ function TerminalBar() {
     </div>
   )
 }
-
 function SecurityRobot() {
-  const messages = [
-    'initializing security agent...',
-    'loading threat detection modules...',
-    'scanning cloud environment...',
-    'analyzing security indicators...',
-    'MITRE ATT&CK modules loaded',
-    'incident response engine ready',
-    'AI SOC agent online',
-  ]
-
-  const [index, setIndex] = useState(0)
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((current) => (current + 1) % messages.length)
-    }, 2200)
-
-    return () => clearInterval(timer)
-  }, [])
-
-  const scanning = index === 2
-  const analyzing = index === 3 || index === 4
-  const ready = index >= 5
-
   return (
     <div className="relative flex h-full min-h-[420px] flex-col overflow-hidden rounded-xl border border-border/80 bg-card/50 p-5 backdrop-blur-sm">
-      {/* Header */}
-      <div className="flex items-center justify-between border-b border-border/60 pb-3">
-        <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-          AI_SECURITY_AGENT
-        </span>
-
-        <span className="font-mono text-[10px] text-primary">
-          ● ACTIVE
-        </span>
-      </div>
-
-      {/* Robot */}
       <div className="flex flex-1 flex-col items-center justify-center">
 
+        {/* Robot */}
         <div className="relative h-44 w-36">
 
           {/* antenna */}
@@ -75,24 +38,13 @@ function SecurityRobot() {
 
             {/* eyes */}
             <div className="absolute left-0 right-0 top-7 flex justify-center gap-8">
-
-              <span
-                className={`size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] transition-transform duration-500 ${
-                  scanning ? '-translate-x-2' : analyzing ? 'scale-150' : ''
-                } ${ready ? 'animate-pulse' : ''}`}
-              />
-
-              <span
-                className={`size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] transition-transform duration-500 ${
-                  scanning ? 'translate-x-2' : analyzing ? 'scale-150' : ''
-                } ${ready ? 'animate-pulse' : ''}`}
-              />
-
+              <span className="size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] animate-pulse" />
+              <span className="size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] animate-pulse" />
             </div>
 
             {/* mouth */}
             <div className="absolute bottom-5 left-1/2 -translate-x-1/2 font-mono text-primary">
-              {analyzing ? '•••' : ready ? '▰' : '_'}
+              _
             </div>
           </div>
 
@@ -101,25 +53,20 @@ function SecurityRobot() {
 
           {/* body */}
           <div className="absolute left-1/2 top-[138px] h-16 w-24 -translate-x-1/2 rounded-xl border-2 border-primary/60 bg-background">
-
-            <div
-              className={`absolute left-1/2 top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary shadow-[0_0_18px_hsl(var(--primary))] ${
-                analyzing ? 'animate-ping' : 'animate-pulse'
-              }`}
-            />
-
+            <div className="absolute left-1/2 top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary shadow-[0_0_18px_hsl(var(--primary))] animate-pulse" />
           </div>
+
         </div>
 
-        {/* Terminal output */}
+        {/* Welcome message */}
         <div className="mt-4 w-full rounded-lg border border-border/60 bg-background/40 p-3">
-          <p className="font-mono text-[10px] leading-relaxed text-muted-foreground">
-            <span className="text-primary">&gt;</span>{' '}
-            {messages[index]}
+          <p className="font-mono text-[10px] text-secondary">
+            reet@security:~$ <span className="cursor-blink">_</span>
           </p>
 
-          <p className="mt-2 font-mono text-[10px] text-secondary">
-            agent@reet:~$ <span className="cursor-blink">_</span>
+          <p className="mt-2 font-mono text-[10px] text-muted-foreground">
+            <span className="text-primary">&gt;</span>{' '}
+            hey :) welcome to my corner of the internet
           </p>
         </div>
 
@@ -127,6 +74,7 @@ function SecurityRobot() {
     </div>
   )
 }
+
 
 export function Hero() {
   const { output, done } = useTypewriter('whoami', 70, 350)
