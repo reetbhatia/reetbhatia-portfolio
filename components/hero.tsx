@@ -38,9 +38,9 @@ function SecurityRobot() {
 
             {/* eyes */}
             <div className="absolute left-0 right-0 top-7 flex justify-center gap-8">
-              <span className="size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] animate-pulse" />
-              <span className="size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))] animate-pulse" />
-            </div>
+            <span className="robot-eye robot-eye-left size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))]" />
+            <span className="robot-eye robot-eye-right size-3 rounded-full bg-primary shadow-[0_0_12px_hsl(var(--primary))]" />
+    </div>
 
             {/* mouth */}
             <div className="absolute bottom-5 left-1/2 -translate-x-1/2 font-mono text-primary">
