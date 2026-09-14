@@ -12,7 +12,7 @@ function TerminalBar() {
       <span className="size-2.5 rounded-full bg-warn/80" />
       <span className="size-2.5 rounded-full bg-primary/80" />
       <span className="ml-2 font-mono text-xs text-muted-foreground">
-        ~/{profile.handle}/security
+        ~/{profile.handle}
       </span>
       <span className="ml-auto font-mono text-[10px] uppercase tracking-widest text-muted-foreground/70">
         bash — 80×24
@@ -61,7 +61,7 @@ function SecurityRobot() {
         {/* Welcome message */}
         <div className="mt-4 w-full rounded-lg border border-border/60 bg-background/40 p-3">
           <p className="font-mono text-[10px] text-secondary">
-            reet@security:~$ <span className="cursor-blink">_</span>
+            reet:~$ <span className="cursor-blink">_</span>
           </p>
 
           <p className="mt-2 font-mono text-[10px] text-muted-foreground">
@@ -94,7 +94,7 @@ export function Hero() {
           <TerminalBar />
           <div className="scan-beam relative p-5 font-mono text-sm sm:p-7">
             <p className="text-muted-foreground">
-              <span className="text-primary">reet@security</span>
+              <span className="text-primary">reet</span>
               <span className="text-foreground">:</span>
               <span className="text-secondary">~</span>
               <span className="text-foreground">$ </span>
