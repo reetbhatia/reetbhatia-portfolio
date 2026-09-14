@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Reet Bhatia',
   handle: 'reet',
-  role: 'Security Analyst',
+  role: '',
   focusLine: 'Cloud Security • Security Operations • AI',
   intro: [
     'Building practical security solutions in cloud security, threat detection, incident response and AI-assisted security.',
