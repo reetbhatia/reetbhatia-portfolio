@@ -2,9 +2,9 @@ export const profile = {
   name: 'Reet Bhatia',
   handle: 'reet',
   role: '',
-  focusLine: 'Cloud Security • Security Operations • AI',
+  focusLine: 'Cloud Security • Security Operations • AI Engineering',
   intro: [
-    'Building practical security solutions in cloud security, threat detection, incident response and AI-assisted security.',
+    'Building practical solutions at the intersection of AI, cloud and security.',
     
   ],
   links: {
@@ -213,13 +213,13 @@ export const skillGroups: SkillGroup[] = [
     id: 'ai',
     title: 'AI / SECURITY',
     items: [
+      'Generative AI',
+      'LLMs',
       'Agentic AI',
-      'Gemini 2.5 Flash',
-      'KQL',
-      'MITRE ATT&CK',
-      'CVSS v3.1',
-      'LLM Security',
-      'VirusTotal',
+      'Prompt Engineering',
+      'AI Guardrails',
+      'AI Testing & Evaluation',
+      'APIs & System Integration',,
     ],
   },
   {
@@ -229,6 +229,7 @@ export const skillGroups: SkillGroup[] = [
       'NIST CSF',
       'NIST SP 800-61',
       'CIS Benchmarks',
+      'MITRE ATT&CK',
       'OWASP Top 10',
       'CMMC 2.0',
       'RBAC',
@@ -289,14 +290,30 @@ export const education = [
 ]
 
 export const certifications = [
-  { id: 'sec-plus', name: 'Security+', issuer: 'CompTIA', code: 'SEC+' },
+  {
+    id: 'sec-plus',
+    name: 'Security+',
+    issuer: 'CompTIA',
+    code: 'SEC+',
+  },
   {
     id: 'isc2-cc',
     name: 'ISC2 Certified in Cybersecurity',
     issuer: 'ISC2',
     code: 'CC',
   },
-  { id: 'sc-900', name: 'Security, Compliance & Identity', issuer: 'Microsoft', code: 'SC-900' },
+  {
+    id: 'sc-900',
+    name: 'Security, Compliance & Identity',
+    issuer: 'Microsoft',
+    code: 'SC-900',
+  },
+  {
+    id: 'google-cybersecurity',
+    name: 'Google Cybersecurity Professional Certificate',
+    issuer: 'Google',
+    code: 'GOOGLE',
+  },
 ]
 
 export const navLinks = [
