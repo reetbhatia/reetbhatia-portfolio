@@ -33,7 +33,7 @@ export function Contact() {
 
           <div className="p-6 font-mono sm:p-8">
             <p className="text-sm">
-              <span className="text-primary">reet@security</span>
+              <span className="text-primary">reet</span>
               <span className="text-foreground">:</span>
               <span className="text-secondary">~</span>
               <span className="text-foreground">$ {output}</span>
@@ -63,7 +63,7 @@ export function Contact() {
             </div>
 
             <p className="mt-8 text-xs text-muted-foreground">
-              <span className="text-primary">reet@security</span>
+              <span className="text-primary">reet</span>
               <span className="text-foreground">:</span>
               <span className="text-secondary">~</span>
               <span className="text-foreground">$ </span>
@@ -75,7 +75,6 @@ export function Contact() {
         <footer className="mt-10 flex flex-col items-center justify-between gap-3 text-center font-mono text-[11px] text-muted-foreground sm:flex-row sm:text-left">
           <span>© {new Date().getFullYear()} {profile.name}</span>
           <span className="text-muted-foreground/70">
-            built in a terminal · deployed on vercel
           </span>
         </footer>
       </div>
