@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'AWS Security',
   ],
   openGraph: {
-    title: 'Reet Bhatia — Cybersecurity Analyst',
+    title: 'Reet Bhatia',
     description:
       'Cloud security, security operations, threat hunting, incident response, and AI-assisted security automation.',
     type: 'website',
