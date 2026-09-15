@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Reet Bhatia — Cybersecurity Analyst',
+  title: 'Reet Bhatia',
   description:
     'Reet Bhatia — Cybersecurity Analyst focused on cloud security, security operations, threat hunting, incident response, and AI-assisted security automation.',
   generator: 'v0.app',
