@@ -51,8 +51,6 @@ export function SiteNav() {
         >
           <Terminal className="size-4 text-primary" aria-hidden="true" />
           <span className="text-foreground">reet</span>
-          <span className="text-muted-foreground">/</span>
-          <span className="text-primary text-glow-neon">security</span>
         </a>
 
         {/* Desktop */}
