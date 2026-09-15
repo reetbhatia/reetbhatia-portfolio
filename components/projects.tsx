@@ -23,7 +23,7 @@ export function Projects() {
       <div className="pointer-events-none absolute inset-0 bg-grid bg-grid-fade opacity-40" aria-hidden="true" />
       <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6">
         <SectionHeading command="ls -la ./projects" title="Featured Projects">
-          Interactive security-system modules. Hover to reveal metadata, click to open
+          Hover to reveal metadata, click to open
           the full case file.
         </SectionHeading>
 
