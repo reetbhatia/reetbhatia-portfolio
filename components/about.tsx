@@ -22,11 +22,11 @@ export function About() {
 </p>
 
 <p>
-  Looking for my next opportunity in cybersecurity - somewhere I can
+  Looking for my next opportunity - somewhere I can
   contribute, keep learning and build things that matter.
 </p>
             <div className="flex flex-wrap gap-2 pt-2">
-              {['Cloud Security', 'Security Operations', 'Threat Hunting', 'Incident Response', 'AI-assisted Security'].map(
+              {['AI Engineering', 'Cloud Engineering', 'Automation', 'Security Operations', 'DevSecOps'].map(
                 (tag) => (
                   <span
                     key={tag}
